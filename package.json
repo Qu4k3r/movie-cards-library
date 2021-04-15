@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Qu4k3r.gitug.io/movie-cards-library",
   "name": "movie-library-cards",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --verbose=true",
